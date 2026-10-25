@@ -26,7 +26,7 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 ## Important checks before launch
 - Confirm address, phone and WhatsApp number.
 - The supplied logo is used in the header, story section and footer.
-- The logo says “Since 1993”; the history section only uses that supported date and does not invent older milestones.
+- The website uses 1991 as the founding year and includes the supplied business milestones from 1991 through 2021. The website logo asset has been corrected to say “Since 1991.”
 - The site uses the store photographs supplied by the owner. Some catalogue categories use the closest available supplied photo for illustration; do not assume every pictured item is currently in stock. Add dedicated photos for product categories as you collect them.
 - Product availability, brands, prices and opening hours are not claimed as verified.
 - The catalogue lists wood-finishing materials and fittings used in furniture-making; the business is not presented as a finished-furniture retailer.
@@ -39,3 +39,19 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 The catalogue is structured into the ten categories supplied by the business: locks; hinges; slotted angles, cable trays and shelves; fabrication items; paints; wood coating; rubber/PVC/nylon components; flower pots and seeds; whitewash/putty items; and door/kitchen fittings.
 
 The homepage uses a collage made from the supplied Kin Kin shop photographs. The catalogue uses distinct AI-generated illustrative product visuals for each category; these are not photographs of verified stock, brands, or exact models. The Our Story gallery uses the real store images supplied by the business. Confirm actual inventory, sizes, specifications, and pricing with the store.
+
+
+## Latest updates
+- Rounded visual system, softer cards and pill-shaped controls inspired by the clean retail presentation of Sunrise Switzerland (without copying its brand assets).
+- WhatsApp icon in the header and floating contact button.
+- Business hours: Monday–Saturday, 8:30 AM–8:00 PM; Sunday, 8:30 AM–2:00 PM.
+- Contact email: kinkinpaints92@gmail.com.
+- Business history timeline covering 1991, 1993, 1994, 1995, 1996, 1999, 2001 and 2021.
+
+
+## Latest visual refresh
+- Brand red aligned to the Kin Kin logo, with rounded components and updated typography.
+- Homepage hero uses a clean, human-free illustrative industrial hardware showroom image.
+- Story section includes a polished, AI-generated representative portrait for Sudhir Chanana; please replace with a professionally retouched original portrait if exact likeness is essential.
+- Story gallery uses clean, human-free illustrative product images and showroom imagery rather than candid shop photos.
+- Hero image caption no longer includes “KK / 1991”; the alt text describes the showroom only.
