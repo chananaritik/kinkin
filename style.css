@@ -338,3 +338,25 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 .footer-logo{max-height:76px;object-fit:contain;object-position:left center}
 @media(max-width:1100px){.header-inner{flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}.header-contact-strip{order:3;width:100%;justify-content:space-between}.header-right{margin-left:auto}.brand-logo{width:clamp(180px,28vw,280px)}}
 @media(max-width:640px){.header-contact-strip{display:grid;grid-template-columns:1fr 1fr;gap:9px 12px}.header-contact-item strong,.header-contact-item small{font-size:9px;white-space:normal;overflow-wrap:anywhere}.header-hours{grid-column:1/-1}.header-right{gap:8px}.brand-logo{width:190px}.footer-section-links{gap:3px}.footer-section-links button{font-size:11px;padding:8px}.footer-logo{max-width:50%;width:170px}}
+
+/* Theme consistency: keep all accent links in the red identity. */
+.heritage-year,.plain-link,.catalogue-callout a,.enquire-product,.small-red-link,.map-link { color: var(--red) !important; }
+.footer-logo { background:#fff !important; padding:10px 14px !important; border-radius:12px !important; box-sizing:border-box; }
+
+/* UX fix: catalogue filters never trap wheel/trackpad scrolling. */
+.catalogue-controls { position: static !important; top: auto !important; }
+.category-filters { display:flex !important; flex-wrap:wrap !important; overflow:visible !important; overflow-x:visible !important; overscroll-behavior: auto !important; }
+.filter-btn { flex: 0 1 auto; }
+.filter-btn:hover { transform:none !important; }
+.filter-btn:focus { outline-offset:3px; }
+/* Keep product cards and their imagery stationary on hover; pointer movement must not resize listings. */
+.product-card, .product-card:hover { transform:none !important; }
+.product-card:hover { box-shadow:0 5px 18px rgba(20,30,45,.06) !important; }
+.product-card:hover .product-image-wrap>img, .product-image-wrap>img:hover { transform:none !important; }
+.category-tile, .category-tile:hover { transform:none !important; }
+.category-tiles img, .category-tiles img:hover { transform:none !important; }
+.store-photo-gallery figure:hover img { transform:none !important; }
+/* Flower pots and agricultural items are intentionally listed last. */
+.product-card[data-category="garden"] { order: 99; }
+.filter-btn[data-filter="garden"], .garden-filter { order:99; }
+.category-tile[data-jump-category="garden"], .garden-tile { order:99; }
