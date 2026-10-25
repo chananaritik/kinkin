@@ -57,6 +57,18 @@ function applyLanguage(lang) {
 }
 langButtons.forEach(btn => btn.addEventListener("click", () => applyLanguage(btn.dataset.lang)));
 
+// Keep vertical page scrolling natural when the pointer is over the horizontal category chips.
+const categoryFilters = document.querySelector(".category-filters");
+if (categoryFilters) {
+  categoryFilters.addEventListener("wheel", event => {
+    if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
+      event.preventDefault();
+      window.scrollBy({top: event.deltaY, left: 0, behavior: "auto"});
+    }
+  }, {passive: false});
+}
+
+
 const tabs = [...document.querySelectorAll(".tab-btn")];
 const panels = [...document.querySelectorAll(".tab-panel")];
 function openTab(name) {
