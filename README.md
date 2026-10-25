@@ -64,3 +64,6 @@ Latest corrections: logo-aligned blue/yellow styling; WhatsApp green icon; hero 
 - This ZIP is the original red-and-white logo updated to Since 1991 variant.
 - Includes all existing catalogue categories, bilingual strings, WhatsApp enquiry links, business hours, timeline, responsive layouts, and the navigation footer.
 - Category filters are configured not to intercept vertical mouse-wheel scrolling.
+
+
+Latest refinement: product images use a fixed-height viewport and no hover zoom or card movement, preventing vertical stretching while browsing the catalogue. The red variant uses red accents throughout and places the original red/black logo on a white footer backing for legibility.
