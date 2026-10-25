@@ -278,27 +278,27 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 
 
 /* Kin Kin logo-aligned blue and yellow brand refinements */
-:root{--red:#b01820;--red-dark:#850f17;--red-pale:#fff0ed;--ink:#202226;--paper:#f6f8fb;--line:#dce4ef}
+:root{--red:#0757b8;--red-dark:#064595;--red-pale:#eaf2ff;--ink:#12264a;--paper:#f6f8fb;--line:#dce4ef}
 .site-header{border-bottom-color:#dce4ef}
 .tab-nav{border-top-color:#f5d322}
-.tab-btn.is-active{background:#b01820;color:#fff}
+.tab-btn.is-active{background:#0757b8;color:#fff}
 .tab-btn.is-active::after{background:#f5d322}
 .red-rule{background:#f5d322}
-.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em{color:#b01820}
-.heritage-year,.plain-link,.catalogue-callout a,.enquire-product,.small-red-link,.map-link{color:#b01820}
-.btn-red,.header-whatsapp,.hero-side-tag{background:#b01820}
-.btn-red:hover,.header-whatsapp:hover{background:#850f17}
+.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em{color:#0757b8}
+.heritage-year,.plain-link,.catalogue-callout a,.enquire-product,.small-red-link,.map-link{color:#0757b8}
+.btn-red,.header-whatsapp,.hero-side-tag{background:#0757b8}
+.btn-red:hover,.header-whatsapp:hover{background:#064595}
 .floating-whatsapp{background:#25D366!important;color:#fff!important}
 .floating-whatsapp:hover{background:#128C7E!important}
 .whatsapp-icon{color:#25D366!important}
 .map-embed-link{position:relative;display:block;min-height:345px;overflow:hidden;border-radius:16px;text-decoration:none;background:#eef2f7}
 .google-map-frame{display:block;width:100%;height:345px;border:0;pointer-events:none}
-.map-embed-hint{position:absolute;right:14px;bottom:14px;padding:10px 13px;border-radius:999px;background:#b01820;color:#fff;font-size:12px;font-weight:800;box-shadow:0 4px 14px #0002}
+.map-embed-hint{position:absolute;right:14px;bottom:14px;padding:10px 13px;border-radius:999px;background:#0757b8;color:#fff;font-size:12px;font-weight:800;box-shadow:0 4px 14px #0002}
 .map-panel{gap:0}
 @media(max-width:650px){.map-embed-link,.google-map-frame{min-height:260px;height:260px}}
 
 /* Brand and interaction polish: blue/yellow identity, blended hero, readable controls */
-:root{--red:#b01820;--red-dark:#850f17;--red-pale:#fff0ed;--ink:#202226;--line:#dce4ef}
+:root{--red:#0757b8;--red-dark:#064595;--red-pale:#eaf2ff;--ink:#10264a;--line:#dce4ef}
 .brand-logo{width:clamp(190px,20vw,260px);max-height:72px;object-fit:contain}
 .footer-logo{max-width:260px;width:100%;height:auto}
 .hero{grid-template-columns:.92fr 1.08fr;gap:0;overflow:hidden;background:#fbf7e9;border:0;border-radius:26px;min-height:520px}
@@ -306,28 +306,28 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 .hero-image-wrap{position:relative;min-height:520px;margin-left:-1px;border-radius:0 26px 26px 0;overflow:hidden}
 .hero-image-wrap::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#fbf7e9 0%,rgba(251,247,233,.84) 8%,rgba(251,247,233,.42) 22%,rgba(251,247,233,0) 43%)}
 .hero-image-wrap::after{background:linear-gradient(0deg,rgba(10,18,32,.48),transparent 42%)}
-.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em{color:#b01820}
-.btn-red,.header-whatsapp,.hero-side-tag{background:#b01820;color:#fff}
+.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em{color:#0757b8}
+.btn-red,.header-whatsapp,.hero-side-tag{background:#0757b8;color:#fff}
 .btn-red,.header-whatsapp,.filter-btn.is-active,.tab-btn.is-active{font-weight:800;text-shadow:none}
-.btn-red{color:#fff!important;background:#b01820;border:1px solid #b01820}
-.btn-red:hover,.header-whatsapp:hover{background:#850f17}
-.tab-btn.is-active{background:#b01820;color:#fff}
+.btn-red{color:#fff!important;background:#0757b8;border:1px solid #0757b8}
+.btn-red:hover,.header-whatsapp:hover{background:#064595}
+.tab-btn.is-active{background:#0757b8;color:#fff}
 .tab-btn.is-active::after{background:#f5d322}
-.filter-btn.is-active{background:#b01820;border-color:#b01820;color:#fff!important;box-shadow:0 2px 0 rgba(7,87,184,.12)}
+.filter-btn.is-active{background:#0757b8;border-color:#0757b8;color:#fff!important;box-shadow:0 2px 0 rgba(7,87,184,.12)}
 .filter-btn{font-weight:700;color:#26354c}
-.filter-btn:hover{border-color:#b01820;color:#850f17}
+.filter-btn:hover{border-color:#0757b8;color:#064595}
 .catalogue-controls{position:sticky;top:0;z-index:5}
 .category-filters{overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#b9cce7 transparent}
-.principal-card{display:flex;align-items:center;gap:22px;padding:20px;border:1px solid var(--line);border-left:4px solid #b01820;background:#fff}
+.principal-card{display:flex;align-items:center;gap:22px;padding:20px;border:1px solid var(--line);border-left:4px solid #0757b8;background:#fff}
 .principal-portrait{width:190px;height:225px;object-fit:cover;object-position:50% 25%;border-radius:18px;flex:0 0 auto;box-shadow:0 8px 22px rgba(16,38,74,.12)}
-.principal-card span{color:#b01820;font-weight:800}
-.principal-card h3{color:#202226}
+.principal-card span{color:#0757b8;font-weight:800}
+.principal-card h3{color:#10264a}
 @media(max-width:760px){.brand-logo{width:clamp(150px,43vw,220px);max-height:58px}.hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:32px 24px 28px;background:#fbf7e9}.hero-image-wrap{min-height:310px;margin-left:0;border-radius:0 0 26px 26px}.hero-image-wrap::before{background:linear-gradient(180deg,#fbf7e9 0%,rgba(251,247,233,.45) 12%,transparent 35%)}.principal-portrait{width:118px;height:150px}.principal-card{gap:14px;padding:14px}}
 
 
-/* Final theme polish — original red-and-white logo identity */
-:root{--red:#b01820;--red-dark:#850f17;--red-pale:#fff0ed;--paper:#faf8f7;--line:#e4dfe0}
-.timeline-year{background:#fff0ed!important;color:#b01820!important;border-radius:999px!important;padding:0 17px!important;min-height:48px!important}.heritage-year{color:#b01820!important;border-right-color:#e4c9c9!important}.timeline-card::before{background:#d7c9c4!important}.timeline-current::before{background:#b01820!important}.timeline-card{border-radius:22px!important}.filter-btn.is-active{background:#b01820!important;border-color:#b01820!important;color:#fff!important}.filter-btn{color:#3c3031!important}.tab-btn.is-active{background:#b01820!important;color:#fff!important}.tab-btn.is-active::after{background:#fff!important}.header-whatsapp{background:#b01820!important;color:#fff!important}.footer-logo{background:transparent!important}.site-footer{background:#211f20!important}.btn-red,.hero-primary{background:#b01820!important;color:#fff!important}.btn-red:hover,.hero-primary:hover{background:#850f17!important;color:#fff!important}.filter-btn:focus-visible,.tab-btn:focus-visible,.header-whatsapp:focus-visible{outline:3px solid #f4c9c7!important;outline-offset:2px}
+/* Final theme polish — KIN KIN blue and yellow identity */
+:root{--red:#0757b8;--red-dark:#06448f;--red-pale:#eaf2ff;--paper:#f6f8fc;--line:#dbe5f2}
+.timeline-year{background:#e8f1ff!important;color:#0757b8!important;border-radius:999px!important;padding:0 17px!important;min-height:48px!important}.heritage-year{color:#0757b8!important;border-right-color:#d5dfed!important}.timeline-card::before{background:#f2cb20!important}.timeline-current::before{background:#0757b8!important}.timeline-card{border-radius:22px!important}.filter-btn.is-active{background:#0757b8!important;border-color:#0757b8!important;color:#fff!important}.filter-btn{color:#17345b!important}.tab-btn.is-active{background:#0757b8!important;color:#fff!important}.tab-btn.is-active::after{background:#f2cb20!important}.header-whatsapp{background:#0757b8!important;color:#fff!important}.footer-logo{background:transparent!important}.site-footer{background:#08274d!important}.btn-red,.hero-primary{background:#0757b8!important;color:#fff!important}.btn-red:hover,.hero-primary:hover{background:#06448f!important}.filter-btn:focus-visible,.tab-btn:focus-visible,.header-whatsapp:focus-visible{outline:3px solid #f2cb20!important;outline-offset:2px}
 
 /* Keep category controls from hijacking vertical page scrolling. */
 .category-filters{display:flex!important;flex-wrap:wrap!important;overflow:visible!important;max-width:100%;touch-action:pan-y!important;overscroll-behavior-x:auto!important;scrollbar-width:none!important}
@@ -339,9 +339,8 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 @media(max-width:1100px){.header-inner{flex-wrap:wrap;gap:12px;padding-top:12px;padding-bottom:12px}.header-contact-strip{order:3;width:100%;justify-content:space-between}.header-right{margin-left:auto}.brand-logo{width:clamp(180px,28vw,280px)}}
 @media(max-width:640px){.header-contact-strip{display:grid;grid-template-columns:1fr 1fr;gap:9px 12px}.header-contact-item strong,.header-contact-item small{font-size:9px;white-space:normal;overflow-wrap:anywhere}.header-hours{grid-column:1/-1}.header-right{gap:8px}.brand-logo{width:190px}.footer-section-links{gap:3px}.footer-section-links button{font-size:11px;padding:8px}.footer-logo{max-width:50%;width:170px}}
 
-/* Theme consistency: keep all accent links in the red identity. */
-.heritage-year,.plain-link,.catalogue-callout a,.enquire-product,.small-red-link,.map-link { color: var(--red) !important; }
-.footer-logo { background:#fff !important; padding:10px 14px !important; border-radius:12px !important; box-sizing:border-box; }
+/* Keep the transparent blue-and-yellow logo legible in the dark footer. */
+.footer-logo { background:transparent !important; }
 
 /* UX fix: catalogue filters never trap wheel/trackpad scrolling. */
 .catalogue-controls { position: static !important; top: auto !important; }
@@ -362,12 +361,14 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 .category-tile[data-jump-category="garden"], .garden-tile { order:99; }
 
 
-/* Red-theme corrections: remove leftover blue accents and keep the original logo readable. */
-:root{--red:#b01820;--red-dark:#850f17;--red-pale:#fff0ed;--ink:#202226}
-.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em,.principal-card span{color:#b01820!important}
-.principal-card{border-left-color:#b01820!important}
-.map-embed-hint{background:#b01820!important}
-.footer-logo{background:#fff!important;padding:10px 14px!important;border-radius:12px!important;box-sizing:border-box;max-height:84px}
+/* Stable catalogue geometry: pointer hover must never stretch product images. */
+.product-grid{align-items:start!important}
+.product-card{align-self:start!important;transform:none!important;transition:box-shadow .18s ease!important}
+.product-card:hover{transform:none!important}
+.product-image-wrap{height:clamp(270px,25vw,360px)!important;min-height:0!important;align-self:start!important;margin:10px 10px 0!important}
+.product-image-wrap>img{display:block!important;width:100%!important;height:100%!important;min-height:0!important;max-height:100%!important;object-fit:cover!important;transform:none!important;transition:none!important}
+.product-card:hover .product-image-wrap>img,.product-image-wrap>img:hover{transform:none!important}
+@media(max-width:650px){.product-grid{align-items:start!important}.product-card{align-self:start!important}.product-image-wrap{height:250px!important;min-height:250px!important}.product-image-wrap>img{height:250px!important;min-height:250px!important}}
 
 
 /* Catalogue layout hardening: fixed image viewport prevents tall-row stretching. */
@@ -378,3 +379,25 @@ a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 .product-image-wrap>img{display:block!important;width:100%!important;height:100%!important;min-height:0!important;max-height:100%!important;object-fit:cover!important;transform:none!important;transition:none!important}
 .product-card:hover .product-image-wrap>img,.product-image-wrap>img:hover{transform:none!important}
 @media(max-width:650px){.product-image-wrap{height:250px!important;min-height:250px!important}.product-image-wrap>img{height:250px!important;min-height:250px!important}}
+
+/* Blue/yellow theme consistency: remove leftover red/pink surfaces and highlights. */
+:root{--red:#0757b8;--red-dark:#06448f;--red-pale:#eaf2ff;--ink:#10264a;--paper:#f6f8fc;--line:#dbe5f2}
+.catalogue-callout{background:#f4f8ff!important;border-color:#cbdcf5!important}
+.catalogue-callout a,.plain-link,.small-red-link,.map-link,.enquire-product{color:#0757b8!important}
+.tab-btn:hover,.tab-btn.is-active:hover{background:#eef5ff!important;color:#0757b8!important}
+.category-tile:hover{border-color:#9fc2f3!important}
+.filter-btn:hover{background:#f2f7ff!important;border-color:#0757b8!important;color:#06448f!important}
+.contact-icon,.contact-symbol,.archive-note{background:#edf4ff!important;color:#0757b8!important;border-color:#c7daf5!important}
+.story-hero,.timeline-current,.timeline-card.timeline-current{background:#f4f8ff!important;border-color:#cbdcf5!important}
+.timeline-year{background:#e8f1ff!important;color:#0757b8!important}
+.timeline-card::before{background:#f2cb20!important}
+.timeline-card.timeline-current::before,.timeline-current::before{background:#0757b8!important}
+.timeline-card{position:relative!important;overflow:hidden!important;isolation:isolate;border-radius:22px!important}
+.timeline-card::before{left:0!important;top:0!important;bottom:0!important;width:5px!important;border-radius:0!important;z-index:0}
+.timeline-card>*{position:relative;z-index:1}
+.principal-card{border-left-color:#0757b8!important}
+.principal-initials,.tile-number{background:#0757b8!important;color:#fff!important}
+.header-contact-item:hover strong{color:#0757b8!important}
+.archive-note{border-left-color:#0757b8!important}
+::selection{background:#dceaff!important;color:#10264a!important}
+:focus-visible{outline-color:#f2cb20}

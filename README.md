@@ -61,7 +61,7 @@ Latest corrections: logo-aligned blue/yellow styling; WhatsApp green icon; hero 
 
 
 ## Theme variants
-- This ZIP is the original red-and-white logo updated to Since 1991 variant.
+- This ZIP is the blue-and-yellow KIN KIN logo variant.
 - Includes all existing catalogue categories, bilingual strings, WhatsApp enquiry links, business hours, timeline, responsive layouts, and the navigation footer.
 - Category filters are configured not to intercept vertical mouse-wheel scrolling.
 
