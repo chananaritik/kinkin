@@ -58,3 +58,9 @@ The homepage uses a collage made from the supplied Kin Kin shop photographs. The
 
 
 Latest corrections: logo-aligned blue/yellow styling; WhatsApp green icon; hero collage composed from the supplied real store photos with human-free crops; owner portrait cropped from the supplied original photo to preserve his actual identity; embedded Google Maps view linked to Google Maps. The portrait retouch preserves the source pose and clothing rather than fabricating a different person.
+
+
+## Theme variants
+- This ZIP is the original red-and-white logo updated to Since 1991 variant.
+- Includes all existing catalogue categories, bilingual strings, WhatsApp enquiry links, business hours, timeline, responsive layouts, and the navigation footer.
+- Category filters are configured not to intercept vertical mouse-wheel scrolling.
