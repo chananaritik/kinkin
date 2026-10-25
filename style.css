@@ -262,3 +262,37 @@ h1,h2,h3,.hero h1,.page-heading h1{font-family:var(--display);letter-spacing:-.0
 .hours-table>div{padding:10px 0;border-bottom:1px solid var(--line)}
 a:hover,.plain-link:hover,.small-red-link:hover{color:var(--red)}
 @media(max-width:760px){.hero{border-radius:24px}.hero-image-wrap{border-radius:0 0 24px 24px}.principal-portrait{width:88px;height:108px}.store-photo-gallery img{height:180px}}
+
+/* Final refinements: official WhatsApp green and a live, clickable Google map */
+.header-whatsapp .whatsapp-icon{color:#25D366 !important}
+.floating-whatsapp{background:#25D366 !important;color:#fff !important}
+.floating-whatsapp:hover{background:#128C7E !important}
+.live-map{position:relative;display:block;overflow:hidden;border-radius:var(--radius-md,18px);height:430px;background:#f2f1ec;text-decoration:none;isolation:isolate}
+.live-map iframe{display:block;width:100%;height:100%;border:0;border-radius:inherit}
+.map-open-overlay{position:absolute;left:16px;bottom:16px;z-index:2;display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:999px;background:#fff;color:#b71920;font-weight:800;font-size:13px;box-shadow:0 4px 18px #0002;pointer-events:none}
+.live-map:focus-visible{outline:3px solid #25D366;outline-offset:3px}
+@media(max-width:650px){.live-map{height:300px}.map-open-overlay{left:10px;bottom:10px;font-size:11px;padding:10px 13px}}
+
+.live-map::after{content:"";position:absolute;inset:0;z-index:1;background:transparent;cursor:pointer}
+.map-open-overlay{z-index:2}
+
+
+/* Kin Kin logo-aligned blue and yellow brand refinements */
+:root{--red:#0757b8;--red-dark:#064595;--red-pale:#eaf2ff;--ink:#12264a;--paper:#f6f8fb;--line:#dce4ef}
+.site-header{border-bottom-color:#dce4ef}
+.tab-nav{border-top-color:#f5d322}
+.tab-btn.is-active{background:#0757b8;color:#fff}
+.tab-btn.is-active::after{background:#f5d322}
+.red-rule{background:#f5d322}
+.hero h1 em,.page-heading h1 em,.story-heading h1 em,.section-title-row h2 em,.story-main h2 em{color:#0757b8}
+.heritage-year,.plain-link,.catalogue-callout a,.enquire-product,.small-red-link,.map-link{color:#0757b8}
+.btn-red,.header-whatsapp,.hero-side-tag{background:#0757b8}
+.btn-red:hover,.header-whatsapp:hover{background:#064595}
+.floating-whatsapp{background:#25D366!important;color:#fff!important}
+.floating-whatsapp:hover{background:#128C7E!important}
+.whatsapp-icon{color:#25D366!important}
+.map-embed-link{position:relative;display:block;min-height:345px;overflow:hidden;border-radius:16px;text-decoration:none;background:#eef2f7}
+.google-map-frame{display:block;width:100%;height:345px;border:0;pointer-events:none}
+.map-embed-hint{position:absolute;right:14px;bottom:14px;padding:10px 13px;border-radius:999px;background:#0757b8;color:#fff;font-size:12px;font-weight:800;box-shadow:0 4px 14px #0002}
+.map-panel{gap:0}
+@media(max-width:650px){.map-embed-link,.google-map-frame{min-height:260px;height:260px}}

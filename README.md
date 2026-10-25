@@ -55,3 +55,6 @@ The homepage uses a collage made from the supplied Kin Kin shop photographs. The
 - Story section includes a polished, AI-generated representative portrait for Sudhir Chanana; please replace with a professionally retouched original portrait if exact likeness is essential.
 - Story gallery uses clean, human-free illustrative product images and showroom imagery rather than candid shop photos.
 - Hero image caption no longer includes “KK / 1991”; the alt text describes the showroom only.
+
+
+Latest corrections: logo-aligned blue/yellow styling; WhatsApp green icon; hero collage composed from the supplied real store photos with human-free crops; owner portrait cropped from the supplied original photo to preserve his actual identity; embedded Google Maps view linked to Google Maps. The portrait retouch preserves the source pose and clothing rather than fabricating a different person.
